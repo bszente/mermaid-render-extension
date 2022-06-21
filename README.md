@@ -9,6 +9,10 @@ Supported web pages:
 
 ## Install
 
+Supported browsers:
+
+* Firefox: [Mermaid Render - Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/mermaid-render/)
+
 ### From source in Chrome/Chromium
 
 1. Clone the repository:
