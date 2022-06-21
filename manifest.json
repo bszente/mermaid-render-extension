@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "mermaid-render",
+    "version": "0.1",
+    "description": "Browser extension to render Mermaid diagrams in web pages.",
+
+    "icons": {
+        "48": "icons/mermaid-48.png",
+        "96": "icons/mermaid-96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*",
+                "file:///*"
+            ],
+            "js": [
+                "3rdparty/mermaid-9.1.2.min.js",
+                "mermaid-render.js"
+            ]
+        }
+    ]
+}
